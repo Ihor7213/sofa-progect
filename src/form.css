@@ -1,0 +1,92 @@
+.form {
+    margin-top: 255px;
+}
+.form-flex {
+    display: flex;
+}
+.newsletter {
+    display: flex;
+}
+.envelope {
+    position: relative;
+    top: -3px;
+    margin-bottom: 25px;
+}
+.form_info {
+color: #2F2F2F;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 12px;
+}
+.registration-form {
+    display: flex;
+    gap: 15px;
+}
+.username-input {
+width: 262px;
+height: 45.791px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #C4C4C4;
+}
+.email-input {
+width: 262px;
+height: 45.791px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #C4C4C4;
+}
+.submit-input {
+width: 50px;
+height: 47.699px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #C4C4C4;
+background: #35736E;
+}
+.form-button {
+    width: 50px;
+height: 47.699px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #C4C4C4;
+background: #35736E;
+margin-right: 78px;
+}
+.green_sofa {
+    position: relative;
+    top: -230px;
+}
+
+@media (max-width: 1000px) {
+    .form-flex {
+        flex-direction: column;
+    }
+    .green_sofa {
+        position: relative;
+        top: 100px;
+    }
+    .newsletter {
+        justify-content: center;
+    }
+    .form-flex {
+        align-items: center;
+    }
+    .registration-form {
+        position: relative;
+        left: 40px;
+    }
+}
+@media (max-width: 768px){
+    .registration-form {
+        position: relative;
+        left: 10px;
+        flex-direction: column;
+    }
+    .form-button {
+        position: relative;
+        left: 105px;
+    }
+}

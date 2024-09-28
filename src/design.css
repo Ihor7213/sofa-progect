@@ -1,0 +1,125 @@
+.design {
+    margin-top: 140px;
+    margin-bottom: 175px;
+}
+.design_container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.design_imige {
+    position: relative;
+    width: 650px;
+}
+.sofa {
+    position: relative;
+    z-index: 2;
+}
+.design_dotted {
+    position: absolute;
+    z-index: 1;
+    top: -50px;
+    left: -111px;
+}
+.chair {
+    position: absolute;
+    top: 220px;
+    left: 340px;
+    z-index: 3;
+}
+.lamp{
+    position: absolute;
+    right: 18px;
+}
+.desidn_content {
+    width: 445px;
+    margin-left: 33px;
+}
+.design_title {
+    color: #2F2F2F;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 41px; /* 120.588% */ 
+    margin-bottom: 30px;
+}
+.design_info {
+color: #6A6A6A;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+margin-bottom: 30px;
+}
+.design_list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 42px;
+}
+.item {
+color: #6A6A6A;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px; /* 135.714% */
+width: 195px;
+}
+.design_button {
+color: #FFF;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 175% */
+width: 122px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #2F2F2F;
+margin-top: 50px;
+}
+
+@media (max-width:1024px) {
+    .design_container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .desidn_content {
+        margin-top: 80px;
+        text-align: center;
+    }
+}
+@media (max-width:700px){
+    .design_container {
+        flex-direction: column;
+    }
+    .lamp {
+        display: none;
+    }
+    .chair {
+        display: none;
+    }
+    .design_imige {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .design_dotted {
+        display: none;
+    }
+    .sofa {
+        display: block;
+        margin: 0 auto;
+    }
+    .desidn_content {
+        margin-left: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .design_list {
+        align-items: center;
+    }
+    .item {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
