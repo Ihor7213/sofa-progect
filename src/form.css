@@ -25,6 +25,7 @@ margin-left: 12px;
     gap: 15px;
 }
 .username-input {
+    padding-left: 10px;
 width: 262px;
 height: 45.791px;
 flex-shrink: 0;
@@ -32,6 +33,7 @@ border-radius: 10px;
 border: 1px solid #C4C4C4;
 }
 .email-input {
+    padding-left: 10px;
 width: 262px;
 height: 45.791px;
 flex-shrink: 0;
